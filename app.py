@@ -1,9 +1,9 @@
+!pip install --upgrade pip
+
 import gradio as gr
 from transformers import pipeline
 
-
 model_checkpoint = "hagara/roberta-large-2"
-
 
 # Load the text classification pipeline
 pipe = pipeline("text-classification", model=model_checkpoint)
