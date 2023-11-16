@@ -1,4 +1,4 @@
-!pip install --upgrade pip
+pip install --upgrade pip
 
 import gradio as gr
 from transformers import pipeline
